@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 #include <cpr/cpr.h>
 
-class Request {
+/*class Request {
 public:
     virtual void command () const;
     virtual ~Request() {}
@@ -79,13 +80,27 @@ void act (std::string str) {
         request->command();
         delete request;
     }
-}
+}*/
 
-int main() {
+int main()
+{
     std::string command;
-
-    while (command != "exit") {
+    while (command != "exit")
+    {
+        std::cout << "HTTP Request Type:";
         std::cin >> command;
-        act(command);
+        std::string url = "https://httpbin.org/";
+        url += command;
+        cpr::Response r;
+        if (command == "get") {
+            r = cpr::Get(cpr::Url(url));
+        } else if (command == "post") {
+            r = cpr::Post(cpr::Url(url));
+        } else if (command == "patch") {
+            r = cpr::Patch(cpr::Url(url));
+        } else if (command == "delete") {
+            r = cpr::Delete(cpr::Url(url));
+        }
+        std::cout << r.text << std::endl;
     }
 }
