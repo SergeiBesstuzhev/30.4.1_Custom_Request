@@ -10,7 +10,7 @@ public:
 
 class Get : virtual public Request {
 public:
-    void command () const {
+    void command () const override {
         cpr::Response r = cpr::Get(cpr::Url("http://httpbin.org/get"));
         std::cout << r.text << std::endl;
     }
@@ -18,7 +18,7 @@ public:
 
 class Post : virtual public Request {
 public:
-    void command () const {
+    void command () const override {
         std::cout << "Enter name and city: ";
         std::string name, city;
         std::cin >> name >> city;
@@ -30,7 +30,7 @@ public:
 
 class Put : virtual public Request {
 public:
-    void command () const {
+    void command () const override {
         std::cout << "Enter name and city: ";
         std::string name, city;
         std::cin >> name >> city;
@@ -42,7 +42,7 @@ public:
 
 class Delete : virtual public Request {
 public:
-    void command () const {
+    void command () const override {
         cpr::Response r = cpr::Get(cpr::Url("http://httpbin.org/delete"));
         std::cout << r.text << std::endl;
     }
@@ -50,7 +50,7 @@ public:
 
 class Patch : virtual public Request {
 public:
-    void command () const {
+    void command () const override {
         cpr::Response r = cpr::Get(cpr::Url("http://httpbin.org/patch"));
         std::cout << r.text << std::endl;
     }
@@ -72,10 +72,12 @@ void act (std::string str) {
     else if (str == "Delete") {
         Request* request = new Delete();
         request->command();
+        delete request;
     }
     else if (str == "Patch") {
-        Request* request = new Request();
+        Request* request = new Patch();
         request->command();
+        delete request;
     }
 }
 
