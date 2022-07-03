@@ -1,0 +1,21 @@
+# ninja log v5
+1	146	6785614574500856	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	f54ddaaf6196b477
+1	146	6785614574500856	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	f54ddaaf6196b477
+146	8315	6785614656163661	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	55234b872921fc2e
+146	8315	6785614656163661	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	55234b872921fc2e
+8315	8405	0	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	42c2e92f21e7cd56
+8315	8405	0	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	42c2e92f21e7cd56
+8405	8446	6785614657515116	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	62968268cd4735fd
+8405	8446	6785614657515116	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	62968268cd4735fd
+8446	8486	6785614657923639	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	b2c8122cd401c6e1
+8446	8486	6785614657923639	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	b2c8122cd401c6e1
+8487	8527	6785614658360842	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	e488e24ee8c6646f
+8487	8527	6785614658360842	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	e488e24ee8c6646f
+8528	8568	6785614658732268	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	48b7cc99a6527482
+8528	8568	6785614658732268	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	48b7cc99a6527482
+8568	8610	6785614659187120	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	22dd42643bb75374
+8568	8610	6785614659187120	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	22dd42643bb75374
+8611	8666	6785614659720424	CMakeFiles/zlib-populate-complete	c92200c6b60522b1
+8611	8666	6785614659720424	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	c92200c6b60522b1
+8611	8666	6785614659720424	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	c92200c6b60522b1
+8611	8666	6785614659720424	C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	c92200c6b60522b1

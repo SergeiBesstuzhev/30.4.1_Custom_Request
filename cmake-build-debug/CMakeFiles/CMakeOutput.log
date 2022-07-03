@@ -1,0 +1,2228 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_8d618 && [1/2] Building C object CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8d618.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\serge\AppData\Local\Temp\ccDiVGAH.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: aa5e9286a0fcea872ab39015bc6bba0c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/'
+ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj C:\Users\serge\AppData\Local\Temp\ccDiVGAH.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_8d618.exe
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d618.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d618.'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\ccJXocfP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d618.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8d618.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d618.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d618.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MinGW/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/MinGW/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_8d618 && [1/2] Building C object CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/']
+  ignore line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8d618.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\serge\AppData\Local\Temp\ccDiVGAH.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: aa5e9286a0fcea872ab39015bc6bba0c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/']
+  ignore line: [ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj C:\Users\serge\AppData\Local\Temp\ccDiVGAH.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_8d618.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d618.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d618.']
+  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\ccJXocfP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d618.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8d618.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\ccJXocfP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_8d618.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_8d618.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_8d618.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/MinGW/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/MinGW/x86_64-w64-mingw32/lib/crt2.o;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d0f09 && [1/2] Building CXX object CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d0f09.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\serge\AppData\Local\Temp\ccxPP5S4.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/'
+ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\serge\AppData\Local\Temp\ccxPP5S4.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_d0f09.exe
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0f09.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0f09.'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\cc9cnbwc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d0f09.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d0f09.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0f09.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0f09.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0] ==> [C:/MinGW/include/c++/11.2.0]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32] ==> [C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward] ==> [C:/MinGW/include/c++/11.2.0/backward]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MinGW/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/MinGW/include/c++/11.2.0;C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32;C:/MinGW/include/c++/11.2.0/backward;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/MinGW/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d0f09 && [1/2] Building CXX object CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/']
+  ignore line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d0f09.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\serge\AppData\Local\Temp\ccxPP5S4.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/']
+  ignore line: [ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\serge\AppData\Local\Temp\ccxPP5S4.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_d0f09.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0f09.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d0f09.']
+  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\cc9cnbwc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_d0f09.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d0f09.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\serge\AppData\Local\Temp\cc9cnbwc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_d0f09.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_d0f09.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/MinGW/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/MinGW/x86_64-w64-mingw32/lib/crt2.o;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_049c4 && [1/2] Building CXX object CMakeFiles/cmTC_049c4.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_049c4.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_a24e7 && [1/2] Building CXX object CMakeFiles/cmTC_a24e7.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_a24e7.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FNO_LTO_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_e866d && [1/2] Building C object CMakeFiles/cmTC_e866d.dir/src.c.obj
+[2/2] Linking C executable cmTC_e866d.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_e7d3f && [1/2] Building C object CMakeFiles/cmTC_e7d3f.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e7d3f.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_6346c && [1/2] Building C object CMakeFiles/cmTC_6346c.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_6346c.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_fe0f6 && [1/2] Building C object CMakeFiles/cmTC_fe0f6.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_fe0f6.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_717c2 && [1/2] Building C object CMakeFiles/cmTC_717c2.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_717c2.exe
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_f1ad4 && [1/2] Building C object CMakeFiles/cmTC_f1ad4.dir/OFF64_T.c.obj
+[2/2] Linking C executable cmTC_f1ad4.exe
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_5c7fe && [1/2] Building C object CMakeFiles/cmTC_5c7fe.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_5c7fe.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_2d506 && [1/2] Building C object CMakeFiles/cmTC_2d506.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_2d506.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_f374b && [1/2] Building C object CMakeFiles/cmTC_f374b.dir/src.c.obj
+[2/2] Linking C executable cmTC_f374b.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_c136e && [1/2] Building C object CMakeFiles/cmTC_c136e.dir/src.c.obj
+[2/2] Linking C executable cmTC_c136e.exe
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_cc9cf && [1/2] Building C object CMakeFiles/cmTC_cc9cf.dir/src.c.obj
+[2/2] Linking C executable cmTC_cc9cf.exe
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_79e9b && [1/2] Building C object CMakeFiles/cmTC_79e9b.dir/src.c.obj
+[2/2] Linking C executable cmTC_79e9b.exe
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_f644c && [1/2] Building C object CMakeFiles/cmTC_f644c.dir/src.c.obj
+[2/2] Linking C executable cmTC_f644c.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_582d6 && [1/2] Building C object CMakeFiles/cmTC_582d6.dir/src.c.obj
+[2/2] Linking C executable cmTC_582d6.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_8f37d && [1/2] Building C object CMakeFiles/cmTC_8f37d.dir/src.c.obj
+[2/2] Linking C executable cmTC_8f37d.exe
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov val, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d7959 && [1/2] Building C object CMakeFiles/cmTC_d7959.dir/src.c.obj
+[2/2] Linking C executable cmTC_d7959.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_a734d && [1/2] Building C object CMakeFiles/cmTC_a734d.dir/src.c.obj
+[2/2] Linking C executable cmTC_a734d.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_e8072 && [1/2] Building C object CMakeFiles/cmTC_e8072.dir/src.c.obj
+[2/2] Linking C executable cmTC_e8072.exe
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0bb0a && [1/2] Building C object CMakeFiles/cmTC_0bb0a.dir/src.c.obj
+[2/2] Linking C executable cmTC_0bb0a.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Performing C SOURCE FILE Test OPT_pedantic succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_35b21 && [1/2] Building C object CMakeFiles/cmTC_35b21.dir/src.c.obj
+[2/2] Linking C executable cmTC_35b21.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wall succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_c2857 && [1/2] Building C object CMakeFiles/cmTC_c2857.dir/src.c.obj
+[2/2] Linking C executable cmTC_c2857.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_W succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_cd6b9 && [1/2] Building C object CMakeFiles/cmTC_cd6b9.dir/src.c.obj
+[2/2] Linking C executable cmTC_cd6b9.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wpointer_arith succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_9d593 && [1/2] Building C object CMakeFiles/cmTC_9d593.dir/src.c.obj
+[2/2] Linking C executable cmTC_9d593.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wwrite_strings succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_98dce && [1/2] Building C object CMakeFiles/cmTC_98dce.dir/src.c.obj
+[2/2] Linking C executable cmTC_98dce.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wunused succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_a4152 && [1/2] Building C object CMakeFiles/cmTC_a4152.dir/src.c.obj
+[2/2] Linking C executable cmTC_a4152.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wshadow succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d4e40 && [1/2] Building C object CMakeFiles/cmTC_d4e40.dir/src.c.obj
+[2/2] Linking C executable cmTC_d4e40.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Winline succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_58731 && [1/2] Building C object CMakeFiles/cmTC_58731.dir/src.c.obj
+[2/2] Linking C executable cmTC_58731.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wnested_externs succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_72700 && [1/2] Building C object CMakeFiles/cmTC_72700.dir/src.c.obj
+[2/2] Linking C executable cmTC_72700.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_declarations succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_e7bf3 && [1/2] Building C object CMakeFiles/cmTC_e7bf3.dir/src.c.obj
+[2/2] Linking C executable cmTC_e7bf3.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_prototypes succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_3f340 && [1/2] Building C object CMakeFiles/cmTC_3f340.dir/src.c.obj
+[2/2] Linking C executable cmTC_3f340.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wfloat_equal succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_98ccd && [1/2] Building C object CMakeFiles/cmTC_98ccd.dir/src.c.obj
+[2/2] Linking C executable cmTC_98ccd.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wsign_compare succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_81215 && [1/2] Building C object CMakeFiles/cmTC_81215.dir/src.c.obj
+[2/2] Linking C executable cmTC_81215.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wundef succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_768b3 && [1/2] Building C object CMakeFiles/cmTC_768b3.dir/src.c.obj
+[2/2] Linking C executable cmTC_768b3.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wendif_labels succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_ac6ab && [1/2] Building C object CMakeFiles/cmTC_ac6ab.dir/src.c.obj
+[2/2] Linking C executable cmTC_ac6ab.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_prototypes succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_ef18a && [1/2] Building C object CMakeFiles/cmTC_ef18a.dir/src.c.obj
+[2/2] Linking C executable cmTC_ef18a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdeclaration_after_statement succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_125e1 && [1/2] Building C object CMakeFiles/cmTC_125e1.dir/src.c.obj
+[2/2] Linking C executable cmTC_125e1.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_aliasing_3 succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_b6ac0 && [1/2] Building C object CMakeFiles/cmTC_b6ac0.dir/src.c.obj
+[2/2] Linking C executable cmTC_b6ac0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wcast_align succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_75f8a && [1/2] Building C object CMakeFiles/cmTC_75f8a.dir/src.c.obj
+[2/2] Linking C executable cmTC_75f8a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wtype_limits succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_72231 && [1/2] Building C object CMakeFiles/cmTC_72231.dir/src.c.obj
+[2/2] Linking C executable cmTC_72231.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wold_style_declaration succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_268d1 && [1/2] Building C object CMakeFiles/cmTC_268d1.dir/src.c.obj
+[2/2] Linking C executable cmTC_268d1.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_parameter_type succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_1825a && [1/2] Building C object CMakeFiles/cmTC_1825a.dir/src.c.obj
+[2/2] Linking C executable cmTC_1825a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wempty_body succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d7e58 && [1/2] Building C object CMakeFiles/cmTC_d7e58.dir/src.c.obj
+[2/2] Linking C executable cmTC_d7e58.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wclobbered succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_9bedf && [1/2] Building C object CMakeFiles/cmTC_9bedf.dir/src.c.obj
+[2/2] Linking C executable cmTC_9bedf.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wignored_qualifiers succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_84312 && [1/2] Building C object CMakeFiles/cmTC_84312.dir/src.c.obj
+[2/2] Linking C executable cmTC_84312.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wconversion succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_091c2 && [1/2] Building C object CMakeFiles/cmTC_091c2.dir/src.c.obj
+[2/2] Linking C executable cmTC_091c2.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wvla succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_7ad7f && [1/2] Building C object CMakeFiles/cmTC_7ad7f.dir/src.c.obj
+[2/2] Linking C executable cmTC_7ad7f.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdouble_promotion succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_58bbc && [1/2] Building C object CMakeFiles/cmTC_58bbc.dir/src.c.obj
+[2/2] Linking C executable cmTC_58bbc.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTlong_long succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_cdb82 && [1/2] Building C object CMakeFiles/cmTC_cdb82.dir/src.c.obj
+[2/2] Linking C executable cmTC_cdb82.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTmultichar succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_12e24 && [1/2] Building C object CMakeFiles/cmTC_12e24.dir/src.c.obj
+[2/2] Linking C executable cmTC_12e24.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTformat_nonliteral succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_b976b && [1/2] Building C object CMakeFiles/cmTC_b976b.dir/src.c.obj
+[2/2] Linking C executable cmTC_b976b.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsign_conversion succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d76c1 && [1/2] Building C object CMakeFiles/cmTC_d76c1.dir/src.c.obj
+[2/2] Linking C executable cmTC_d76c1.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsystem_headers succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_97d24 && [1/2] Building C object CMakeFiles/cmTC_97d24.dir/src.c.obj
+[2/2] Linking C executable cmTC_97d24.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTpedantic_ms_format succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_2fbc9 && [1/2] Building C object CMakeFiles/cmTC_2fbc9.dir/src.c.obj
+[2/2] Linking C executable cmTC_2fbc9.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_7d65d && [1/2] Building C object CMakeFiles/cmTC_7d65d.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_7d65d.exe
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_11b52 && [1/2] Building C object CMakeFiles/cmTC_11b52.dir/src.c.obj
+[2/2] Linking C executable cmTC_11b52.exe
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_62b24 && [1/2] Building C object CMakeFiles/cmTC_62b24.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_62b24.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_61b0a && [1/2] Building C object CMakeFiles/cmTC_61b0a.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_61b0a.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d552a && [1/2] Building C object CMakeFiles/cmTC_d552a.dir/HAVE_WINDOWS_H.c.obj
+[2/2] Linking C executable cmTC_d552a.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_df419 && [1/2] Building C object CMakeFiles/cmTC_df419.dir/HAVE_WS2TCPIP_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_df419.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_05a64 && [1/2] Building C object CMakeFiles/cmTC_05a64.dir/HAVE_WINSOCK2_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_05a64.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_10f39 && [1/2] Building C object CMakeFiles/cmTC_10f39.dir/HAVE_WINCRYPT_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_10f39.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0f054 && [1/2] Building C object CMakeFiles/cmTC_0f054.dir/HAVE_STDIO_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_STDIO_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_0f054.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_a4fd6 && [1/2] Building C object CMakeFiles/cmTC_a4fd6.dir/HAVE_ASSERT_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_a4fd6.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0b60f && [1/2] Building C object CMakeFiles/cmTC_0b60f.dir/HAVE_ERRNO_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ERRNO_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_0b60f.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_4c648 && [1/2] Building C object CMakeFiles/cmTC_4c648.dir/HAVE_LIBGEN_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_4c648.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0f7a4 && [1/2] Building C object CMakeFiles/cmTC_0f7a4.dir/HAVE_LOCALE_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_0f7a4.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_39e85 && [1/2] Building C object CMakeFiles/cmTC_39e85.dir/HAVE_STDBOOL_H.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_39e85.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_b1208 && [1/2] Building C object CMakeFiles/cmTC_b1208.dir/SIZEOF_SIZE_T.c.obj
+[2/2] Linking C executable cmTC_b1208.exe
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_033d5 && [1/2] Building C object CMakeFiles/cmTC_033d5.dir/SIZEOF_SSIZE_T.c.obj
+[2/2] Linking C executable cmTC_033d5.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_18483 && [1/2] Building C object CMakeFiles/cmTC_18483.dir/SIZEOF_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_18483.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_ab333 && [1/2] Building C object CMakeFiles/cmTC_ab333.dir/SIZEOF_LONG.c.obj
+[2/2] Linking C executable cmTC_ab333.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_1edd2 && [1/2] Building C object CMakeFiles/cmTC_1edd2.dir/SIZEOF_SHORT.c.obj
+[2/2] Linking C executable cmTC_1edd2.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_67dfc && [1/2] Building C object CMakeFiles/cmTC_67dfc.dir/SIZEOF_INT.c.obj
+[2/2] Linking C executable cmTC_67dfc.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_621c3 && [1/2] Building C object CMakeFiles/cmTC_621c3.dir/SIZEOF___INT64.c.obj
+[2/2] Linking C executable cmTC_621c3.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0c246 && [1/2] Building C object CMakeFiles/cmTC_0c246.dir/SIZEOF_TIME_T.c.obj
+[2/2] Linking C executable cmTC_0c246.exe
+
+
+
+Determining if the basename exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_0b856 && [1/2] Building C object CMakeFiles/cmTC_0b856.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&basename))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_0b856.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_47973 && [1/2] Building C object CMakeFiles/cmTC_47973.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&gethostbyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_47973.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_ab6b0 && [1/2] Building C object CMakeFiles/cmTC_ab6b0.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&strtoll))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ab6b0.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_afb28 && [1/2] Building C object CMakeFiles/cmTC_afb28.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&_strtoi64))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_afb28.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_9e751 && [1/2] Building C object CMakeFiles/cmTC_9e751.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&freeaddrinfo))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_9e751.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_483e1 && [1/2] Building C object CMakeFiles/cmTC_483e1.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getprotobyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_483e1.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_008e3 && [1/2] Building C object CMakeFiles/cmTC_008e3.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getpeername))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_008e3.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_43bd7 && [1/2] Building C object CMakeFiles/cmTC_43bd7.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getsockname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_43bd7.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_4c257 && [1/2] Building C object CMakeFiles/cmTC_4c257.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setlocale))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_4c257.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_64ff8 && [1/2] Building C object CMakeFiles/cmTC_64ff8.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setmode))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_64ff8.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d3a98 && [1/2] Building C object CMakeFiles/cmTC_d3a98.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setsockopt))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_d3a98.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_3b522 && [1/2] Building C object CMakeFiles/cmTC_3b522.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&inet_pton))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_3b522.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_6e353 && [1/2] Building C object CMakeFiles/cmTC_6e353.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:236:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  236 | main ()
+      | ^~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:241:24: warning: 'socket' is used uninitialized [-Wuninitialized]
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_6e353.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_9a235 && [1/2] Building C object CMakeFiles/cmTC_9a235.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:308:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  308 | main ()
+      | ^~~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function 'main':
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:312:41: warning: passing argument 3 of 'ioctlsocket' from incompatible pointer type [-Wincompatible-pointer-types]
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                         ^~~~~~
+      |                                         |
+      |                                         int *
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:303:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:1007:76: note: expected 'u_long *' {aka 'long unsigned int *'} but argument is of type 'int *'
+ 1007 |   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
+      |                                                                    ~~~~~~~~^~~~
+[2/2] Linking C executable cmTC_9a235.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_d2a41 && [1/2] Building C object CMakeFiles/cmTC_d2a41.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:169:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  169 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_d2a41.exe
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_f603a && [1/2] Building C object CMakeFiles/cmTC_f603a.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:221:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  221 | int main () { ; return 0; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_f603a.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_8f028 && [1/2] Building C object CMakeFiles/cmTC_8f028.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:486:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  486 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_8f028.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_7906a && [1/2] Building C object CMakeFiles/cmTC_7906a.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:495:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  495 | #define gcc_vmacro3(first, args...) fun3(first, args)
+      |                                ^~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:496:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  496 | #define gcc_vmacro2(first, args...) fun2(first, args)
+      |                                ^~~
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:509:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  509 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_7906a.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_1b26e && [1/2] Building C object CMakeFiles/cmTC_1b26e.dir/SIZEOF_OFF_T.c.obj
+[2/2] Linking C executable cmTC_1b26e.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_7cd1a && [1/2] Building C object CMakeFiles/cmTC_7cd1a.dir/SIZEOF_CURL_OFF_T.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/include/curl/system.h:422,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_CURL_OFF_T.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_7cd1a.exe
+
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_53369 && [1/2] Building C object CMakeFiles/cmTC_53369.dir/CurlTests.c.obj
+C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:458:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  458 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_53369.exe
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_06025 && [1/2] Building C object CMakeFiles/cmTC_06025.dir/src.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_06025.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_aa24d && [1/2] Building C object CMakeFiles/cmTC_aa24d.dir/src.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_aa24d.a
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_9ee0c && [1/2] Building C object CMakeFiles/cmTC_9ee0c.dir/src.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_9ee0c.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_abd9a && [1/2] Building C object CMakeFiles/cmTC_abd9a.dir/src.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_abd9a.a
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_45912 && [1/2] Building C object CMakeFiles/cmTC_45912.dir/src.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_45912.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_4bbcd && [1/2] Building C object CMakeFiles/cmTC_4bbcd.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
+In file included from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_STRUCT_SOCKADDR_STORAGE.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_4bbcd.a
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_13ec9 && [1/2] Building C object CMakeFiles/cmTC_13ec9.dir/CheckSymbolExists.c.obj
+In file included from c:\mingw\x86_64-w64-mingw32\include\ws2tcpip.h:17,
+                 from C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+c:\mingw\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_13ec9.exe
+
+
+File C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
