@@ -2226,3 +2226,90 @@ int main(int argc, char** argv)
   return 0;
 #endif
 }
+Performing C SOURCE FILE Test OPT_Wno_long_long succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_3e631 && [1/2] Building C object CMakeFiles/cmTC_3e631.dir/src.c.obj
+[2/2] Linking C executable cmTC_3e631.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_multichar succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_f3334 && [1/2] Building C object CMakeFiles/cmTC_f3334.dir/src.c.obj
+[2/2] Linking C executable cmTC_f3334.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_format_nonliteral succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_4bca4 && [1/2] Building C object CMakeFiles/cmTC_4bca4.dir/src.c.obj
+[2/2] Linking C executable cmTC_4bca4.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_sign_conversion succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_47977 && [1/2] Building C object CMakeFiles/cmTC_47977.dir/src.c.obj
+[2/2] Linking C executable cmTC_47977.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_system_headers succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_fb05f && [1/2] Building C object CMakeFiles/cmTC_fb05f.dir/src.c.obj
+[2/2] Linking C executable cmTC_fb05f.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_pedantic_ms_format succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_953eb && [1/2] Building C object CMakeFiles/cmTC_953eb.dir/src.c.obj
+[2/2] Linking C executable cmTC_953eb.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if files windows.h;winsock.h exist passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_4f208 && [1/2] Building C object CMakeFiles/cmTC_4f208.dir/HAVE_WINSOCK_H.c.obj
+[2/2] Linking C executable cmTC_4f208.exe
+
+
+
+Determining size of sig_atomic_t passed with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_c1e75 && [1/2] Building C object CMakeFiles/cmTC_c1e75.dir/SIZEOF_SIG_ATOMIC_T.c.obj
+[2/2] Linking C static library libcmTC_c1e75.a
+
+
+
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeeded with the following output:
+Change Dir: C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_976a5 && [1/2] Building C object CMakeFiles/cmTC_976a5.dir/src.c.obj
+[2/2] Linking C static library libcmTC_976a5.a
+
+
+Source file was:
+
+    #ifdef HAVE_SIGNAL_H
+    #  include <signal.h>
+    #endif
+    int main(void) {
+      static volatile sig_atomic_t dummy = 0;
+      (void)dummy;
+      return 0;
+    }

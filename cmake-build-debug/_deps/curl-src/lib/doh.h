@@ -7,11 +7,11 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 2018 - 2021, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 2018 - 2019, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
- * are also available at https://curl.se/docs/copyright.html.
+ * are also available at https://curl.haxx.se/docs/copyright.html.
  *
  * You may opt to use, copy, modify, merge, publish, distribute and/or sell
  * copies of the Software, and permit persons to whom the Software is
@@ -32,12 +32,12 @@
  * and returns a 'Curl_addrinfo *' with the address information.
  */
 
-struct Curl_addrinfo *Curl_doh(struct Curl_easy *data,
-                               const char *hostname,
-                               int port,
-                               int *waitp);
+Curl_addrinfo *Curl_doh(struct connectdata *conn,
+                        const char *hostname,
+                        int port,
+                        int *waitp);
 
-CURLcode Curl_doh_is_resolved(struct Curl_easy *data,
+CURLcode Curl_doh_is_resolved(struct connectdata *conn,
                               struct Curl_dns_entry **dns);
 
 int Curl_doh_getsock(struct connectdata *conn, curl_socket_t *socks);
@@ -70,6 +70,12 @@ typedef enum {
 #define DOH_MAX_ADDR 24
 #define DOH_MAX_CNAME 4
 
+struct cnamestore {
+  size_t len;       /* length of cname */
+  char *alloc;      /* allocated pointer */
+  size_t allocsize; /* allocated size */
+};
+
 struct dohaddr {
   int type;
   union {
@@ -79,11 +85,11 @@ struct dohaddr {
 };
 
 struct dohentry {
-  struct dynbuf cname[DOH_MAX_CNAME];
-  struct dohaddr addr[DOH_MAX_ADDR];
-  int numaddr;
   unsigned int ttl;
+  int numaddr;
+  struct dohaddr addr[DOH_MAX_ADDR];
   int numcname;
+  struct cnamestore cname[DOH_MAX_CNAME];
 };
 
 
@@ -93,15 +99,14 @@ DOHcode doh_encode(const char *host,
                    unsigned char *dnsp, /* buffer */
                    size_t len,  /* buffer size */
                    size_t *olen); /* output length */
-DOHcode doh_decode(const unsigned char *doh,
+DOHcode doh_decode(unsigned char *doh,
                    size_t dohlen,
                    DNStype dnstype,
                    struct dohentry *d);
-void de_init(struct dohentry *d);
 void de_cleanup(struct dohentry *d);
 #endif
 
-#else /* if DoH is disabled */
+#else /* if DOH is disabled */
 #define Curl_doh(a,b,c,d) NULL
 #define Curl_doh_is_resolved(x,y) CURLE_COULDNT_RESOLVE_HOST
 #endif

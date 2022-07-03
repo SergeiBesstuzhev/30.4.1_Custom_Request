@@ -8,9 +8,6 @@ SMTP
 #
 # Server-side
 <reply>
-<servercmd>
-REPLY MAIL 501 not fine enough
-</servercmd>
 </reply>
 
 #
@@ -40,7 +37,7 @@ To: another
 body
 </stdin>
 <command>
-smtp://%HOSTIP:%SMTPPORT/%TESTNUMBER --mail-rcpt recipient@example.com --mail-from sender@åäö.se -T -
+smtp://%HOSTIP:%SMTPPORT/959 --mail-rcpt recipient@example.com --mail-from sender@åäö.se -T -
 </command>
 </client>
 
@@ -52,7 +49,7 @@ smtp://%HOSTIP:%SMTPPORT/%TESTNUMBER --mail-rcpt recipient@example.com --mail-fr
 55
 </errorcode>
 <protocol>
-EHLO %TESTNUMBER
+EHLO 959
 MAIL FROM:<sender@åäö.se>
 QUIT
 </protocol>

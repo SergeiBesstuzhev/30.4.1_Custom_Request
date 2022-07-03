@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/zlib-build/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/curl-build/cmake_install.cmake")
 endif()
 

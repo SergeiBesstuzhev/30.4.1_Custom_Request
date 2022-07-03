@@ -9,7 +9,7 @@
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
- * are also available at https://curl.se/docs/copyright.html.
+ * are also available at https://curl.haxx.se/docs/copyright.html.
  *
  * You may opt to use, copy, modify, merge, publish, distribute and/or sell
  * copies of the Software, and permit persons to whom the Software is
@@ -48,13 +48,13 @@ static const unsigned char hmac_opad = 0x5C;
 
 
 
-struct HMAC_context *
-Curl_HMAC_init(const struct HMAC_params *hashparams,
+HMAC_context *
+Curl_HMAC_init(const HMAC_params * hashparams,
                const unsigned char *key,
                unsigned int keylen)
 {
   size_t i;
-  struct HMAC_context *ctxt;
+  HMAC_context *ctxt;
   unsigned char *hkey;
   unsigned char b;
 
@@ -101,7 +101,7 @@ Curl_HMAC_init(const struct HMAC_params *hashparams,
   return ctxt;
 }
 
-int Curl_HMAC_update(struct HMAC_context *ctxt,
+int Curl_HMAC_update(HMAC_context * ctxt,
                      const unsigned char *data,
                      unsigned int len)
 {
@@ -111,9 +111,9 @@ int Curl_HMAC_update(struct HMAC_context *ctxt,
 }
 
 
-int Curl_HMAC_final(struct HMAC_context *ctxt, unsigned char *result)
+int Curl_HMAC_final(HMAC_context *ctxt, unsigned char *result)
 {
-  const struct HMAC_params *hashparams = ctxt->hmac_hash;
+  const HMAC_params * hashparams = ctxt->hmac_hash;
 
   /* Do not get result if called with a null parameter: only release
      storage. */
@@ -147,13 +147,12 @@ int Curl_HMAC_final(struct HMAC_context *ctxt, unsigned char *result)
  *
  * Returns CURLE_OK on success.
  */
-CURLcode Curl_hmacit(const struct HMAC_params *hashparams,
+CURLcode Curl_hmacit(const HMAC_params *hashparams,
                      const unsigned char *key, const size_t keylen,
                      const unsigned char *data, const size_t datalen,
                      unsigned char *output)
 {
-  struct HMAC_context *ctxt =
-    Curl_HMAC_init(hashparams, key, curlx_uztoui(keylen));
+  HMAC_context *ctxt = Curl_HMAC_init(hashparams, key, curlx_uztoui(keylen));
 
   if(!ctxt)
     return CURLE_OUT_OF_MEMORY;

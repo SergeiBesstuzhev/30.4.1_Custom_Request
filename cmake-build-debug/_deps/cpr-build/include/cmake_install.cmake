@@ -41,7 +41,3 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/cpr-src/include/cpr")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/cpr-build/cpr_generated_includes/cpr")
-endif()
-

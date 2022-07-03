@@ -13,15 +13,15 @@ project(cpr-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.32.0.windows.2]==])
+set(GIT_VERSION_STRING [==[2.37.0.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.32.0.windows.2]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.37.0.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(cpr-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "GIT_TAG" "6ea2dec23c3df14ac3b27b7d2d6bbff0cb7ba1b0"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/whoshuu/cpr.git" "GIT_TAG" "c8d33915dbd88ad6c92b258869b03aba06587ff9"
                     SOURCE_DIR          "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/cpr-src"
                     BINARY_DIR          "C:/Users/serge/CLionProjects/30.4.1_Custom_Request/cmake-build-debug/_deps/cpr-build"
                     CONFIGURE_COMMAND   ""

@@ -5,11 +5,11 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 1998 - 2021, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 1998 - 2019, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
- * are also available at https://curl.se/docs/copyright.html.
+ * are also available at https://curl.haxx.se/docs/copyright.html.
  *
  * You may opt to use, copy, modify, merge, publish, distribute and/or sell
  * copies of the Software, and permit persons to whom the Software is
@@ -19,6 +19,8 @@
  * KIND, either express or implied.
  *
  ***************************************************************************/
+
+/* !checksrc! disable ASSIGNWITHINCONDITION 14 */
 
 /* Now include the curl_setup.h file from libcurl's private libdir (the source
    version, but that might include "curl_config.h" from the build dir so we
@@ -34,8 +36,6 @@
 #ifdef HAVE_SYS_SELECT_H
 /* since so many tests use select(), we can just as well include it here */
 #include <sys/select.h>
-#elif defined(HAVE_UNISTD_H)
-#include <unistd.h>
 #endif
 
 #ifdef TPF
@@ -44,13 +44,11 @@
 
 #include "curl_printf.h"
 
-#define test_setopt(A,B,C)                                      \
-  if((res = curl_easy_setopt((A), (B), (C))) != CURLE_OK)       \
-    goto test_cleanup
+#define test_setopt(A,B,C) \
+  if((res = curl_easy_setopt((A), (B), (C))) != CURLE_OK) goto test_cleanup
 
-#define test_multi_setopt(A,B,C)                                \
-  if((res = curl_multi_setopt((A), (B), (C))) != CURLE_OK)      \
-    goto test_cleanup
+#define test_multi_setopt(A,B,C) \
+  if((res = curl_multi_setopt((A), (B), (C))) != CURLE_OK) goto test_cleanup
 
 extern char *libtest_arg2; /* set by first.c to the argv[2] or NULL */
 extern char *libtest_arg3; /* set by first.c to the argv[3] or NULL */
@@ -84,18 +82,18 @@ extern int unitfail;
 ** For portability reasons TEST_ERR_* values should be less than 127.
 */
 
-#define TEST_ERR_MAJOR_BAD     (CURLcode) 126
-#define TEST_ERR_RUNS_FOREVER  (CURLcode) 125
-#define TEST_ERR_EASY_INIT     (CURLcode) 124
-#define TEST_ERR_MULTI         (CURLcode) 123
-#define TEST_ERR_NUM_HANDLES   (CURLcode) 122
-#define TEST_ERR_SELECT        (CURLcode) 121
-#define TEST_ERR_SUCCESS       (CURLcode) 120
-#define TEST_ERR_FAILURE       (CURLcode) 119
-#define TEST_ERR_USAGE         (CURLcode) 118
-#define TEST_ERR_FOPEN         (CURLcode) 117
-#define TEST_ERR_FSTAT         (CURLcode) 116
-#define TEST_ERR_BAD_TIMEOUT   (CURLcode) 115
+#define TEST_ERR_MAJOR_BAD     126
+#define TEST_ERR_RUNS_FOREVER  125
+#define TEST_ERR_EASY_INIT     124
+#define TEST_ERR_MULTI_INIT    123
+#define TEST_ERR_NUM_HANDLES   122
+#define TEST_ERR_SELECT        121
+#define TEST_ERR_SUCCESS       120
+#define TEST_ERR_FAILURE       119
+#define TEST_ERR_USAGE         118
+#define TEST_ERR_FOPEN         117
+#define TEST_ERR_FSTAT         116
+#define TEST_ERR_BAD_TIMEOUT   115
 
 /*
 ** Macros for test source code readability/maintainability.
@@ -152,7 +150,7 @@ extern int unitfail;
 #define exe_multi_init(A,Y,Z) do {                                 \
   if(((A) = curl_multi_init()) == NULL) {                          \
     fprintf(stderr, "%s:%d curl_multi_init() failed\n", (Y), (Z)); \
-    res = TEST_ERR_MULTI;                                          \
+    res = TEST_ERR_MULTI_INIT;                                     \
   }                                                                \
 } while(0)
 
@@ -176,7 +174,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_easy_setopt() failed, "    \
             "with code %d (%s)\n",                         \
             (Y), (Z), (int)ec, curl_easy_strerror(ec));    \
-    res = ec;                                              \
+    res = (int)ec;                                         \
   }                                                        \
 } while(0)
 
@@ -200,7 +198,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_setopt() failed, "    \
             "with code %d (%s)\n",                          \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));    \
-    res = TEST_ERR_MULTI;                                   \
+    res = (int)ec;                                          \
   }                                                         \
 } while(0)
 
@@ -224,7 +222,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_add_handle() failed, " \
             "with code %d (%s)\n",                           \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));     \
-    res = TEST_ERR_MULTI;                                    \
+    res = (int)ec;                                           \
   }                                                          \
 } while(0)
 
@@ -248,7 +246,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_remove_handle() failed, " \
             "with code %d (%s)\n",                              \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));        \
-    res = TEST_ERR_MULTI;                                       \
+    res = (int)ec;                                              \
   }                                                             \
 } while(0)
 
@@ -273,7 +271,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_perform() failed, "        \
             "with code %d (%s)\n",                               \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));         \
-    res = TEST_ERR_MULTI;                                        \
+    res = (int)ec;                                               \
   }                                                              \
   else if(*((B)) < 0) {                                          \
     fprintf(stderr, "%s:%d curl_multi_perform() succeeded, "     \
@@ -303,7 +301,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_fdset() failed, "              \
             "with code %d (%s)\n",                                   \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));             \
-    res = TEST_ERR_MULTI;                                            \
+    res = (int)ec;                                                   \
   }                                                                  \
   else if(*((E)) < -1) {                                             \
     fprintf(stderr, "%s:%d curl_multi_fdset() succeeded, "           \
@@ -333,7 +331,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_timeout() failed, "    \
             "with code %d (%s)\n",                           \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));     \
-    res = TEST_ERR_BAD_TIMEOUT;                              \
+    res = (int)ec;                                           \
   }                                                          \
   else if(*((B)) < -1L) {                                    \
     fprintf(stderr, "%s:%d curl_multi_timeout() succeeded, " \
@@ -363,7 +361,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_poll() failed, "              \
             "with code %d (%s)\n",                                  \
             (Y), (Z), (int)ec, curl_multi_strerror(ec));            \
-    res = TEST_ERR_MULTI;                                           \
+    res = (int)ec;                                                  \
   }                                                                 \
   else if(*((E)) < 0) {                                             \
     fprintf(stderr, "%s:%d curl_multi_poll() succeeded, "           \
@@ -393,7 +391,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_multi_wakeup() failed, " \
             "with code %d (%s)\n",                       \
             (Y), (Z), (int)ec, curl_multi_strerror(ec)); \
-    res = TEST_ERR_MULTI;                                \
+    res = (int)ec;                                       \
   }                                                      \
 } while(0)
 
@@ -468,7 +466,7 @@ extern int unitfail;
     fprintf(stderr, "%s:%d curl_global_init() failed, " \
             "with code %d (%s)\n",                      \
             (Y), (Z), (int)ec, curl_easy_strerror(ec)); \
-    res = ec;                                           \
+    res = (int)ec;                                      \
   }                                                     \
 } while(0)
 
